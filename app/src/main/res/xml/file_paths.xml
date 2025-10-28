@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--
+        Directorio de caché. Usamos '.' para compartir todo el directorio de caché.
+        Las imágenes temporales se crean en un subdirectorio 'temp_images' dentro de él.
+    -->
+    <cache-path
+        name="shared_cache"
+        path="." />
+
+    <!-- Directorio de archivos internos para imágenes de perfil guardadas -->
+    <files-path
+        name="profile_images"
+        path="profile_images/" />
+</paths>
